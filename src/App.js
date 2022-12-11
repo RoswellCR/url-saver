@@ -7,10 +7,10 @@ import Redirect from './pages/redirect';
 function App(){
   return (
     <BrowserRouter>
-    <Routes>
+     <Routes>
       <Route path= "/" element={<Create/>}/>
       <Route path="u/:id" element={<Redirect/>}/>
-    </Routes>
+     </Routes>
     </BrowserRouter>) 
   
 }
